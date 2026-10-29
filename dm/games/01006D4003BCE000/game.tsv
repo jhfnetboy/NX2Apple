@@ -1,0 +1,46 @@
+# Game profile of Guns, Gore & Cannoli 2 (Switch: one package, build v0, its control data's display version 1.0.0 although the
+# dump's file name says 1.0.4). Plays on the Mac
+# Format: see dm/games/README.md
+# Unity 5.6.6f2 (IL2CPP), SDK 3.8.0, NVN: the shaders are Shader objects in the player's serialized files (Data/*.assets and
+# Data/Resources/unity default resources, the latter written by Unity 5.6.4p1). None of them carries type trees and no bundle
+# supplies one, so their layout is written out in unityfs.py (SHADER_5_6, hash a70f7abc...).
+# The dump this profile was brought up on is a Chinese-localised release (its UI strings are Chinese in Data/resources.assets,
+# and no English counterpart of them), while its control data declares nine languages and no Chinese; see the game note.
+
+# ---- Identity ----
+title_id	01006D4003BCE000
+program_id	01006D4003BCE000
+
+# ---- App ----
+# Game name: only a label for profile listings and the Mac window title; the iOS app name is the game name in the base NSP, and the bundle ID comes from the base game title ID (build_ipa.sh / NSP script)
+name	Guns Gore and Cannoli 2
+ipa	GunsGoreAndCannoli2.ipa
+app_category	public.app-category.games
+
+# ---- Versions ----
+build	v0	1.0.0	main=dfd4606d1de3a946b180228dbe2cfa78	subsdk0=2d719facf18c89952daacc8e2c3a7980	sdk=0a9eabf878d3d81ce2e16458ffdc9a20
+package	v0
+shader_versions	v0
+
+# ---- Files ----
+# load order as on Horizon: main, subsdk*, sdk (subsdk0 = NintendoSDK_movie)
+modules	main subsdk0 sdk
+romfs_marker	Data/globalgamemanagers
+zip_store	.assets:.dat:.mp4:.png:.resource:.ress:.vrc
+
+# ---- Memory ----
+# The NPDM declares no system resource, so the game has no virtual address memory: Unity sets its heap to the application pool minus the used memory
+# (3.14 GB in a 3.25 GB heap region, as the host reports it) and allocates from there. The block is 256 MB in front + 256 MB alias region + 256 MB
+# stack region + 3.25 GB heap region
+mem_reserve	0x100000000
+mem_alias	0x10000000
+mem_stack	0x10000000
+app_pool	0xCD500000
+# the NPDM declares 0 MB of system resource (IsVirtualAddressMemoryEnabled off)
+sys_resource	0x0
+# the rewritten modules take 70 MB (main 46.9, sdk 14.2, subsdk0 5.5), more than the default 64 MB of used memory
+mem_used	0x4600000
+
+# ---- Shader split (shader_split.py; Unity Shader objects, read by unityfs.py) ----
+shader_groups	/Data/=data
+shader_note	Guns, Gore & Cannoli 2 shaders
