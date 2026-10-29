@@ -502,6 +502,13 @@ HLE_FORCE("_ZN5movie7DecoderC1ENS_11DecoderTypeENS_19DecoderOutputFormatENS_11De
 // SDK 4's constructor has no priority argument (Dark Souls Remastered, NintendoSDK_movie 4.5.0). Without this take-over the SDK built its own decoder and the host's Configure read it as a host one (a call through a null pointer)
 HLE_FORCE("_ZN5movie7DecoderC1ENS_11DecoderTypeENS_19DecoderOutputFormatENS_11DecoderModeE", "movie decoder (SDK 4, no priority): host implementation", void, h_movie_Decoder4,
           void **self, int type, int fmt, int mode) { h_movie_Decoder(self, type, fmt, mode, 0); }
+// SDK 3's constructor has neither a mode nor a priority (Guns, Gore & Cannoli 2, NintendoSDK_movie 3.8.0: its main imports this two-argument form). Without the take-over the SDK built its own
+// decoder and the game's first movie died in its ACodec path, ACodec::UninitializedState::onAllocateComponent → android::RefBase::RefBase reading 0x28 of a null component.
+// Its DecoderOutputFormat numbering is not the newer one: DecoderImpl::GetOutputBufferFormat (subsdk0+0x2dd59c) sets the nv12-* keys for every video mime whatever format it was built with, and
+// channel-count / sample-rate for audio, so this SDK's video decoders produce NV12 and its audio ones interleaved PCM16. This game asks for output format 3, which the newer numbering calls
+// ABGR: taken as RGBA the client read luma and chroma out of RGBA bytes (vertical stripes over a quarter of the frame, the rest cut off)
+HLE_FORCE("_ZN5movie7DecoderC1ENS_11DecoderTypeENS_19DecoderOutputFormatE", "movie decoder (SDK 3, no mode or priority): host implementation", void, h_movie_Decoder3,
+          void **self, int type, int fmt) { (void)fmt; h_movie_Decoder(self, type, type >= MD_TYPE_AAC ? MD_FMT_PCM16 : MD_FMT_NV12, 0, 0); }
 static void md_free(void **self) {
     mdec_t *d = md_of(self); if (!d) return;
     md_defer_drop(d);

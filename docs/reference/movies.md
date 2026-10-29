@@ -32,6 +32,13 @@ The SDK's movie library (`movie::Decoder`, `movie::Extractor`), which the host t
 - **Fix:** both forms are taken over now (`hle_movie.c`).
 - **Found on:** [DARK SOULS: REMASTERED](../../dm/games/01004AB00A260000/README.md) (SDK 4.5.0; one boot).
 
+### SDK 3's two-argument constructor, with its own output format numbering
+
+- **Symptom:** the game's first movie crashed in `ACodec::UninitializedState::onAllocateComponent` → `android::RefBase::RefBase`, a null read at `0x28` (`pc=sdk+0x2aed78`, `lr=subsdk0+0x236514`, the movie module); with the constructor taken over but the format passed through, the movie played as vertical stripes over one quarter of the frame, the other three quarters cut off.
+- **Cause:** NintendoSDK_movie 3.8.0's constructor is `Decoder(DecoderType, DecoderOutputFormat)` — neither mode nor priority — so the host's four- and three-argument take-overs missed it and the SDK built its own decoder, whose ACodec path allocated a hardware component the host has none of. That SDK's `DecoderOutputFormat` numbering is also not the newer one: `DecoderImpl::GetOutputBufferFormat` (`subsdk0+0x2dd59c`) sets the `nv12-*` keys for every video mime and `channel-count` / `sample-rate` for audio, whatever format the caller was built with, so its video decoders produce NV12 and its audio ones interleaved PCM16. Passing the caller's number through made output format 3, ABGR in the newer numbering, RGBA pictures the client read as NV12.
+- **Fix:** `h_movie_Decoder3` takes the two-argument form over and picks the format the SDK itself would: NV12 for video, PCM16 for audio (`hle_movie.c`).
+- **Found on:** [Guns, Gore & Cannoli 2](../../dm/games/01006D4003BCE000/README.md) (SDK 3.8.0): the opening movie, an H.264 MP4 at 1280×720, before the first chapter.
+
 ### The complete-object destructor
 
 - **Cause:** the game calls the complete-object destructor `movie::Decoder::~Decoder` (`D1`); the SDK's own one destroyed the host object as a `DecoderImpl`.

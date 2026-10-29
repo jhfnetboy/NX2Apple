@@ -1,0 +1,398 @@
+# kind: evidence  Guns, Gore & Cannoli 2 shaders (Unity Shader / GLSLC in RomFS + main) → control section + code area keys (dm/gfx/tools/shader_split.py)
+# column 5 records where each key first appears; no PC shader pairing supplied
+package	index	stage	dm_ctl_sha16	source
+vs_data.bin	0	vertex	61fb0f8a45982e40	/Data/Resources/unity default resources#GUI/Text Shader#var19.0
+vs_data.bin	1	vertex	260f6b0fa797421a	/Data/Resources/unity default resources#GUI/Text Shader#var19.1
+ps_data.bin	0	pixel	72e5424d0414e6ef	/Data/Resources/unity default resources#GUI/Text Shader#var19.4
+ps_data.bin	1	pixel	5abc802c7871f252	/Data/Resources/unity default resources#GUI/Text Shader#var19.5
+vs_data.bin	2	vertex	d89e2b3b615102ff	/Data/Resources/unity default resources#Hidden/FrameDebuggerRenderTargetDisplay#var19.0
+ps_data.bin	2	pixel	bcbfdde6db58e5de	/Data/Resources/unity default resources#Hidden/FrameDebuggerRenderTargetDisplay#var19.1
+vs_data.bin	3	vertex	f36af7428355cd09	/Data/Resources/unity default resources#Hidden/FrameDebuggerRenderTargetDisplay#var19.2
+ps_data.bin	3	pixel	f846616bdc9f3055	/Data/Resources/unity default resources#Hidden/FrameDebuggerRenderTargetDisplay#var19.3
+vs_data.bin	4	vertex	b1d0fb9aae8cda48	/Data/Resources/unity default resources#Hidden/Internal-Colored#var19.0
+vs_data.bin	5	vertex	85edefa8ae7a6b0d	/Data/Resources/unity default resources#Hidden/Internal-Colored#var19.1
+ps_data.bin	4	pixel	7c8daf01b34199aa	/Data/Resources/unity default resources#Hidden/Internal-Colored#var19.4
+ps_data.bin	5	pixel	5f57c1aaeb07cccf	/Data/Resources/unity default resources#Hidden/Internal-Colored#var19.5
+vs_data.bin	6	vertex	7a6d57e66d844f35	/Data/Resources/unity default resources#Hidden/InternalClear#var19.0
+vs_data.bin	7	vertex	c9472718806e3c14	/Data/Resources/unity default resources#Hidden/InternalClear#var19.1
+ps_data.bin	6	pixel	3c5e4aa6928982c6	/Data/Resources/unity default resources#Hidden/InternalClear#var19.4
+ps_data.bin	7	pixel	42e834a6ee755641	/Data/Resources/unity default resources#Hidden/InternalClear#var19.5
+vs_data.bin	8	vertex	26983ca9ba32bf52	/Data/Resources/unity default resources#Hidden/InternalErrorShader#var19.0
+vs_data.bin	9	vertex	c955d150e2e83e5f	/Data/Resources/unity default resources#Hidden/InternalErrorShader#var19.1
+ps_data.bin	8	pixel	9e30d398392f7867	/Data/Resources/unity default resources#Hidden/InternalErrorShader#var19.4
+ps_data.bin	9	pixel	fc5f4e56ff76b094	/Data/Resources/unity default resources#Hidden/InternalErrorShader#var19.5
+vs_data.bin	10	vertex	b3a1f661a3e1d144	/Data/Resources/unity_builtin_extra#Hidden/BlitCopy#var19.0
+ps_data.bin	10	pixel	050529139e9ebc12	/Data/Resources/unity_builtin_extra#Hidden/BlitCopy#var19.1
+vs_data.bin	11	vertex	6114a31fb91bf9c2	/Data/Resources/unity_builtin_extra#Hidden/BlitCopyDepth#var19.0
+ps_data.bin	11	pixel	55c99a646eed9e3d	/Data/Resources/unity_builtin_extra#Hidden/BlitCopyDepth#var19.1
+vs_data.bin	12	vertex	c00c193a771567b3	/Data/Resources/unity_builtin_extra#Hidden/ConvertTexture#var19.0
+ps_data.bin	12	pixel	f6553e4ca73b8b80	/Data/Resources/unity_builtin_extra#Hidden/ConvertTexture#var19.1
+vs_data.bin	13	vertex	c760b5e06de1d039	/Data/Resources/unity_builtin_extra#Hidden/CubeBlend#var19.0
+ps_data.bin	13	pixel	3eb8a8207128e9bb	/Data/Resources/unity_builtin_extra#Hidden/CubeBlend#var19.1
+vs_data.bin	14	vertex	afec6fb98fc4f99e	/Data/Resources/unity_builtin_extra#Hidden/CubeBlur#var19.0
+ps_data.bin	14	pixel	ee63b990a9f4138b	/Data/Resources/unity_builtin_extra#Hidden/CubeBlur#var19.1
+vs_data.bin	15	vertex	14aa78378da8d096	/Data/Resources/unity_builtin_extra#Hidden/CubeBlur#var19.2
+ps_data.bin	15	pixel	18b81b9595891714	/Data/Resources/unity_builtin_extra#Hidden/CubeBlur#var19.3
+vs_data.bin	16	vertex	f58d0619393e4263	/Data/Resources/unity_builtin_extra#Hidden/Internal-CombineDepthNormals#var19.0
+ps_data.bin	16	pixel	e73dbfdfb6063c3e	/Data/Resources/unity_builtin_extra#Hidden/Internal-CombineDepthNormals#var19.1
+vs_data.bin	17	vertex	0ca286671a1f1d91	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredReflections#var19.0
+ps_data.bin	17	pixel	f107c92a83c980a0	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredReflections#var19.1
+vs_data.bin	18	vertex	e23c0dd4cfd2598b	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredReflections#var19.2
+vs_data.bin	19	vertex	fa927f39c4ddad2e	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredReflections#var19.3
+ps_data.bin	18	pixel	1c69bd5f4996f191	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredReflections#var19.4
+ps_data.bin	19	pixel	0f7a0e1389fc125a	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredReflections#var19.5
+vs_data.bin	20	vertex	c987d7b43925e908	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.0
+vs_data.bin	21	vertex	eae1fc2287d955a3	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.1
+vs_data.bin	22	vertex	2acf5e377451ed25	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.10
+vs_data.bin	23	vertex	fa6995896006da80	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.11
+vs_data.bin	24	vertex	568d0912db7ce256	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.12
+vs_data.bin	25	vertex	2f83929cc36268b9	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.13
+vs_data.bin	26	vertex	b633c7f8d40d6296	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.14
+vs_data.bin	27	vertex	73a11f3b2c947421	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.15
+vs_data.bin	28	vertex	629cddf9b2d95772	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.16
+vs_data.bin	29	vertex	e5f2f3f38d2b4ebe	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.17
+vs_data.bin	30	vertex	7f88ca5e7ed4f64f	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.18
+vs_data.bin	31	vertex	92edc9cfea660d3e	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.19
+vs_data.bin	32	vertex	f4b04f3afc1c2671	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.2
+vs_data.bin	33	vertex	9c24c9f62f053e55	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.20
+vs_data.bin	34	vertex	543c31967857fb5c	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.21
+vs_data.bin	35	vertex	660364dfd313d836	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.22
+vs_data.bin	36	vertex	748e444e95b6f8b6	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.23
+vs_data.bin	37	vertex	1e30788c55c1bf48	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.24
+vs_data.bin	38	vertex	5ecc9890e7e2e5b6	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.25
+ps_data.bin	20	pixel	d54fb832cbf41ec3	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.26
+ps_data.bin	21	pixel	ca29c1077ea8317a	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.27
+ps_data.bin	22	pixel	e2d774894189b02e	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.28
+ps_data.bin	23	pixel	fd990439280713e0	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.29
+vs_data.bin	39	vertex	c901bc1f8fc87828	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.3
+ps_data.bin	24	pixel	fb3126debd41cade	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.30
+ps_data.bin	25	pixel	882f81a1c239ffb9	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.31
+ps_data.bin	26	pixel	14a51c0192f13fe1	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.32
+ps_data.bin	27	pixel	b9dd924e18e7b7b9	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.33
+ps_data.bin	28	pixel	3e20de98db147392	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.34
+ps_data.bin	29	pixel	dd33f0aba7774b61	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.35
+ps_data.bin	30	pixel	0e19a642f6841b03	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.36
+ps_data.bin	31	pixel	79dcde3857935b5e	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.37
+ps_data.bin	32	pixel	fd476ddc015c1b75	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.38
+ps_data.bin	33	pixel	04e7b29345882fbe	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.39
+vs_data.bin	40	vertex	b8725c1c5abc2e38	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.4
+ps_data.bin	34	pixel	bc2a69b9b4ca105d	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.40
+ps_data.bin	35	pixel	e4ab0873749b28b9	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.41
+ps_data.bin	36	pixel	41dad3285b415849	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.42
+ps_data.bin	37	pixel	1672bc607b2be23c	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.43
+ps_data.bin	38	pixel	a593ff007d4864c2	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.44
+ps_data.bin	39	pixel	f924e9a40a758a4f	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.45
+ps_data.bin	40	pixel	b4ff57d1a6c2c941	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.46
+ps_data.bin	41	pixel	1b2234678fd52ef0	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.47
+ps_data.bin	42	pixel	06d595c1488e83c0	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.48
+ps_data.bin	43	pixel	346ca194cffce910	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.49
+vs_data.bin	41	vertex	458193aff3dba043	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.5
+ps_data.bin	44	pixel	c870c2af34e6aa87	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.50
+ps_data.bin	45	pixel	ff919cc35c4683be	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.51
+vs_data.bin	42	vertex	c14a9f8cbfd78b14	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.52
+ps_data.bin	46	pixel	d139a87bd69eecbf	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.53
+vs_data.bin	43	vertex	23f0172389f21a63	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.6
+vs_data.bin	44	vertex	656942866cbcfafb	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.7
+vs_data.bin	45	vertex	cc15c273fedb4012	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.8
+vs_data.bin	46	vertex	4ef4a149cc41d2f2	/Data/Resources/unity_builtin_extra#Hidden/Internal-DeferredShading#var19.9
+vs_data.bin	47	vertex	fc1e6261cf774cde	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.0
+ps_data.bin	47	pixel	7b101ed120d3f716	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.1
+vs_data.bin	48	vertex	7e38ad97c3cd23f7	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.10
+ps_data.bin	48	pixel	914d62152d9a3b6d	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.11
+vs_data.bin	49	vertex	2cc4e3d4b9655afe	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.12
+ps_data.bin	49	pixel	5cc0c4438a5895b0	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.13
+vs_data.bin	50	vertex	9ea37e764d151fde	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.14
+ps_data.bin	50	pixel	7bc273ab8e96e71e	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.15
+vs_data.bin	51	vertex	4fd1c2b9550dc56e	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.16
+ps_data.bin	51	pixel	1e6c8c93147667fe	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.17
+vs_data.bin	52	vertex	32046eb6db03ae93	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.18
+ps_data.bin	52	pixel	9c4c5fe4c9f38c80	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.19
+vs_data.bin	53	vertex	43ae867df841cfb6	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.2
+ps_data.bin	53	pixel	6f20c96df038bb18	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.3
+vs_data.bin	54	vertex	b9dcb476fade2dce	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.4
+ps_data.bin	54	pixel	a81e81f2ce78d3ab	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.5
+vs_data.bin	55	vertex	c29e701c13474e9d	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.6
+ps_data.bin	55	pixel	8f6d26c08f2ad6c8	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.7
+vs_data.bin	56	vertex	200f9544b02170dc	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.8
+ps_data.bin	56	pixel	73cfdb87db27b563	/Data/Resources/unity_builtin_extra#Hidden/Internal-DepthNormalsTexture#var19.9
+vs_data.bin	57	vertex	3b63492668788f91	/Data/Resources/unity_builtin_extra#Hidden/Internal-Flare#var19.0
+ps_data.bin	57	pixel	76975fa698736059	/Data/Resources/unity_builtin_extra#Hidden/Internal-Flare#var19.1
+vs_data.bin	58	vertex	4dc7253bc3c3bb0d	/Data/Resources/unity_builtin_extra#Hidden/Internal-GUITexture#var19.0
+ps_data.bin	58	pixel	f128387cce7d681e	/Data/Resources/unity_builtin_extra#Hidden/Internal-GUITexture#var19.1
+vs_data.bin	59	vertex	197857c2eb0bd903	/Data/Resources/unity_builtin_extra#Hidden/Internal-GUITextureBlit#var19.0
+ps_data.bin	59	pixel	4a0c43ec9166f3e4	/Data/Resources/unity_builtin_extra#Hidden/Internal-GUITextureBlit#var19.1
+vs_data.bin	60	vertex	5ae5dadb4d7d7460	/Data/Resources/unity_builtin_extra#Hidden/Internal-GUITextureClip#var19.0
+ps_data.bin	60	pixel	ab9bc5e83cd18439	/Data/Resources/unity_builtin_extra#Hidden/Internal-GUITextureClip#var19.1
+vs_data.bin	61	vertex	c80c171076091c8e	/Data/Resources/unity_builtin_extra#Hidden/Internal-GUITextureClipText#var19.0
+ps_data.bin	61	pixel	8c92c25b0aa41b2f	/Data/Resources/unity_builtin_extra#Hidden/Internal-GUITextureClipText#var19.1
+vs_data.bin	62	vertex	87eb4e5c2c19cb83	/Data/Resources/unity_builtin_extra#Hidden/Internal-Halo#var19.0
+ps_data.bin	62	pixel	8989a423d532aa76	/Data/Resources/unity_builtin_extra#Hidden/Internal-Halo#var19.1
+vs_data.bin	63	vertex	fbdcddbd48f8a183	/Data/Resources/unity_builtin_extra#Hidden/Internal-MotionVectors#var19.0
+ps_data.bin	63	pixel	ba9f7d723d59c147	/Data/Resources/unity_builtin_extra#Hidden/Internal-MotionVectors#var19.1
+vs_data.bin	64	vertex	b45a55bb5cc6773e	/Data/Resources/unity_builtin_extra#Hidden/Internal-MotionVectors#var19.2
+ps_data.bin	64	pixel	d6aab1e4e232ceb0	/Data/Resources/unity_builtin_extra#Hidden/Internal-MotionVectors#var19.3
+vs_data.bin	65	vertex	9f5eb572d17f4b2d	/Data/Resources/unity_builtin_extra#Hidden/Internal-MotionVectors#var19.4
+ps_data.bin	65	pixel	982e5dea144df062	/Data/Resources/unity_builtin_extra#Hidden/Internal-MotionVectors#var19.5
+vs_data.bin	66	vertex	19cf5525c5228ada	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.0
+vs_data.bin	67	vertex	8927d6b226f20568	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.1
+vs_data.bin	68	vertex	583fc0accb859ac4	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.10
+vs_data.bin	69	vertex	81a8368dbf54af1b	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.11
+vs_data.bin	70	vertex	81193fef5444911c	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.12
+ps_data.bin	66	pixel	02b404c19c41ea34	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.13
+ps_data.bin	67	pixel	317ceb2bc9ee9738	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.14
+ps_data.bin	68	pixel	49ad19e1adf09bb8	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.15
+ps_data.bin	69	pixel	a5b9e794628ed05e	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.16
+ps_data.bin	70	pixel	4af8f6af04acf81d	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.17
+ps_data.bin	71	pixel	80fc0e9793933540	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.18
+ps_data.bin	72	pixel	a41906fa288b310c	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.19
+vs_data.bin	71	vertex	259700042b1d860f	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.2
+ps_data.bin	73	pixel	52e59bcb53d4a9be	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.20
+ps_data.bin	74	pixel	5ed036f967a7b49a	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.21
+ps_data.bin	75	pixel	e4dcd329a3e76ac8	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.22
+ps_data.bin	76	pixel	a2ac87f3df6478f0	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.23
+ps_data.bin	77	pixel	5b8d64a29d6b6dde	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.24
+ps_data.bin	78	pixel	dd8d47f623cf3e65	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.25
+vs_data.bin	72	vertex	49153feab2b5b1d2	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.26
+vs_data.bin	73	vertex	67d6f706c5137ecd	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.27
+vs_data.bin	74	vertex	7b3e319b7358da27	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.28
+vs_data.bin	75	vertex	0f643f7b520b6d8d	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.29
+vs_data.bin	76	vertex	6f49298b4e3d56cc	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.3
+vs_data.bin	77	vertex	6f4a159a590600b9	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.30
+vs_data.bin	78	vertex	f24ba7adddaba56a	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.31
+vs_data.bin	79	vertex	f14a675456ca4d98	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.32
+vs_data.bin	80	vertex	3331aa80a00ac132	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.33
+vs_data.bin	81	vertex	0653eab518af8e82	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.34
+vs_data.bin	82	vertex	6544f5664c666577	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.35
+vs_data.bin	83	vertex	1411128780de3419	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.36
+vs_data.bin	84	vertex	92b472aece6f8c00	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.37
+vs_data.bin	85	vertex	9d50326068ac7075	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.38
+ps_data.bin	79	pixel	7ce63a75ba954501	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.39
+vs_data.bin	86	vertex	800f2649db8f5a67	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.4
+ps_data.bin	80	pixel	b57dd39e326e0980	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.40
+ps_data.bin	81	pixel	94f56d8659d00e8b	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.41
+ps_data.bin	82	pixel	254354e8d1553099	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.42
+ps_data.bin	83	pixel	b7cd892a9cf232c4	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.43
+ps_data.bin	84	pixel	58115e06d5e2c5c2	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.44
+ps_data.bin	85	pixel	3101ac403de517b8	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.45
+ps_data.bin	86	pixel	40b9c6a172e14b87	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.46
+ps_data.bin	87	pixel	682107fb92d758fa	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.47
+ps_data.bin	88	pixel	fca199cd14720a3a	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.48
+ps_data.bin	89	pixel	4bf9a735e7a64ec1	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.49
+vs_data.bin	87	vertex	510e4112cb39e73c	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.5
+ps_data.bin	90	pixel	145f8bf6269b12e5	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.50
+ps_data.bin	91	pixel	f84d6b9a0be7d3f1	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.51
+vs_data.bin	88	vertex	16973719bd48ea2b	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.6
+vs_data.bin	89	vertex	a3f23b00dff6b515	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.7
+vs_data.bin	90	vertex	af064e917ec50477	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.8
+vs_data.bin	91	vertex	c5639b17999a4712	/Data/Resources/unity_builtin_extra#Hidden/Internal-PrePassLighting#var19.9
+vs_data.bin	92	vertex	b157c780e382eff1	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.0
+vs_data.bin	93	vertex	df80ac02e2ce00bc	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.1
+vs_data.bin	94	vertex	d59c9c69719feef1	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.10
+ps_data.bin	92	pixel	e2ef9f80b25bccb7	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.12
+ps_data.bin	93	pixel	f0d6a218ce961433	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.13
+ps_data.bin	94	pixel	abb5add927e299be	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.14
+vs_data.bin	95	vertex	dcfe665905bacf6e	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.16
+vs_data.bin	96	vertex	4af9979cc4127a93	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.17
+vs_data.bin	97	vertex	7a5c752471007efa	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.18
+vs_data.bin	98	vertex	c0804b0eaafcae6b	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.2
+ps_data.bin	95	pixel	811358539af776f5	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.20
+ps_data.bin	96	pixel	2930053a50fb51e1	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.21
+ps_data.bin	97	pixel	a2e7bdbe730c8795	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.22
+vs_data.bin	99	vertex	c4ff8bbf1291c91a	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.24
+vs_data.bin	100	vertex	40599bbf85043ca5	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.25
+vs_data.bin	101	vertex	7d19b5bf31284a71	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.26
+ps_data.bin	98	pixel	d009525b0688e65a	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.28
+ps_data.bin	99	pixel	b9fe5b758111926c	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.29
+ps_data.bin	100	pixel	1c1f3985da3b2c96	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.30
+ps_data.bin	101	pixel	5f793b71866cb0fa	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.4
+ps_data.bin	102	pixel	c64a87bddab125b2	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.5
+ps_data.bin	103	pixel	066186671582d9c9	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.6
+vs_data.bin	102	vertex	6c729fa8ba7050d1	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.8
+vs_data.bin	103	vertex	3ccdd10bf19df576	/Data/Resources/unity_builtin_extra#Hidden/Internal-ScreenSpaceShadows#var19.9
+vs_data.bin	104	vertex	6c5229a6bf8e9cc5	/Data/Resources/unity_builtin_extra#Hidden/Internal-StencilWrite#var19.0
+ps_data.bin	104	pixel	97d2929c2b760ed7	/Data/Resources/unity_builtin_extra#Hidden/Internal-StencilWrite#var19.1
+vs_data.bin	105	vertex	e83415153bd69743	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.0
+ps_data.bin	105	pixel	b0cfbeffa965dac2	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.1
+vs_data.bin	106	vertex	8651b336999d41d2	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.10
+ps_data.bin	106	pixel	08b4df13fc97fc5d	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.11
+vs_data.bin	107	vertex	00505f44d713f66f	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.12
+ps_data.bin	107	pixel	1e5a96fc75b6ef93	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.13
+vs_data.bin	108	vertex	ef17f241bb7cbcc6	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.14
+ps_data.bin	108	pixel	63c622cd0148c469	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.15
+vs_data.bin	109	vertex	fa72e8f606d9e58a	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.2
+ps_data.bin	109	pixel	92a9226b9b9c9e65	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.3
+vs_data.bin	110	vertex	1231aace8efbbfd8	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.4
+ps_data.bin	110	pixel	2e12952c59f01c34	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.5
+vs_data.bin	111	vertex	634eb0806da68494	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.6
+ps_data.bin	111	pixel	37d2a92c5ccbc8e9	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.7
+vs_data.bin	112	vertex	157b6645538b3fd9	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.8
+ps_data.bin	112	pixel	aa9cc4be6cb12d64	/Data/Resources/unity_builtin_extra#Hidden/VideoDecode#var19.9
+vs_data.bin	113	vertex	7f9f8ea9ffc691ba	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.0
+vs_data.bin	114	vertex	33af9f49770fc48a	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.1
+vs_data.bin	115	vertex	2762baded279f17e	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.10
+ps_data.bin	113	pixel	d484c900f77ff4ba	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.11
+ps_data.bin	114	pixel	c5c17575a6aa645c	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.12
+ps_data.bin	115	pixel	b6386d842e21afed	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.13
+ps_data.bin	116	pixel	2b44f5bfa1152484	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.14
+ps_data.bin	117	pixel	ea042302dd1d80dd	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.15
+vs_data.bin	116	vertex	73b0bc9c9c2c0f43	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.16
+ps_data.bin	118	pixel	f5a63bb08da8cab9	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.17
+vs_data.bin	117	vertex	d579c7e87c3e617d	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.18
+vs_data.bin	118	vertex	f092be95a3bf0ec9	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.19
+vs_data.bin	119	vertex	43f4ae48e046acf2	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.2
+ps_data.bin	119	pixel	a74b6ced4f248164	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.20
+ps_data.bin	120	pixel	276ab03a33b237dc	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.21
+vs_data.bin	120	vertex	6ec3c6b3ee9c8404	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.22
+vs_data.bin	121	vertex	d84bc73c2b40df68	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.23
+ps_data.bin	121	pixel	76a9450ab5f7ef0d	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.24
+ps_data.bin	122	pixel	b2b69e1c091c9c99	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.25
+vs_data.bin	122	vertex	b5d9cbe1267135db	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.26
+vs_data.bin	123	vertex	bc1b7a212eea65bb	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.27
+ps_data.bin	123	pixel	193482a857378dab	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.28
+ps_data.bin	124	pixel	fafb73aaabadd8aa	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.29
+vs_data.bin	124	vertex	1c911af9c1327dd9	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.3
+ps_data.bin	125	pixel	0d5751b67996daee	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.4
+ps_data.bin	126	pixel	f9b580ad98967f98	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.5
+vs_data.bin	125	vertex	e4c64f623f3bb0e2	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.6
+vs_data.bin	126	vertex	e1397c9cb47b0467	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.7
+vs_data.bin	127	vertex	9a33913f88400434	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.8
+vs_data.bin	128	vertex	4b8e5eb3282da962	/Data/Resources/unity_builtin_extra#Legacy Shaders/Diffuse#var19.9
+vs_data.bin	129	vertex	c60cd2396e13461a	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.0
+vs_data.bin	130	vertex	8e424f0365ee8d29	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.1
+vs_data.bin	131	vertex	5f0fbfd194e159de	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.10
+vs_data.bin	132	vertex	49620cf6a758c3eb	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.11
+ps_data.bin	127	pixel	08f831f925a01b36	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.12
+ps_data.bin	128	pixel	70f2c2fc0cb2cc9b	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.13
+vs_data.bin	133	vertex	35b181556cf29975	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.2
+ps_data.bin	129	pixel	e592772eaf6db108	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.3
+ps_data.bin	130	pixel	2d8d10970ef0ef85	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.4
+ps_data.bin	131	pixel	007476caedcf2b99	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.5
+vs_data.bin	134	vertex	eb7ab90f5429538a	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.6
+ps_data.bin	132	pixel	ca8dd8225c4f31d1	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.7
+vs_data.bin	135	vertex	0aeed209c6a5be1f	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.8
+ps_data.bin	133	pixel	8ff91553340effd3	/Data/Resources/unity_builtin_extra#Legacy Shaders/VertexLit#var19.9
+vs_data.bin	136	vertex	974a4b64415bef68	/Data/Resources/unity_builtin_extra#UI/Default#var19.0
+vs_data.bin	137	vertex	7b1394f8f5414b76	/Data/Resources/unity_builtin_extra#UI/Default#var19.1
+ps_data.bin	134	pixel	b1098447d5a2d097	/Data/Resources/unity_builtin_extra#UI/Default#var19.2
+ps_data.bin	135	pixel	1b25f3e757ae10a1	/Data/Resources/unity_builtin_extra#UI/Default#var19.3
+vs_data.bin	138	vertex	01db5443b7dedc78	/Data/globalgamemanagers.assets#Sprites/Default#var19.0
+vs_data.bin	139	vertex	8aba808b8b42db8b	/Data/globalgamemanagers.assets#Sprites/Default#var19.1
+ps_data.bin	136	pixel	9ab8986b5201802a	/Data/globalgamemanagers.assets#Sprites/Default#var19.2
+ps_data.bin	137	pixel	0042618b0089056a	/Data/globalgamemanagers.assets#Sprites/Default#var19.3
+vs_data.bin	140	vertex	8b3a2be65ed666a4	/Data/resources.assets#Cartoon FX/Mobile Particles Additive Alpha8#var19.0
+ps_data.bin	138	pixel	7451b97577005d7e	/Data/resources.assets#Cartoon FX/Mobile Particles Additive Alpha8#var19.1
+vs_data.bin	141	vertex	1a458bf9c1e97cd7	/Data/resources.assets#FMVTexture#var19.0
+ps_data.bin	139	pixel	806e4d826023bc46	/Data/resources.assets#FMVTexture#var19.1
+vs_data.bin	142	vertex	305025088856ceb3	/Data/resources.assets#Mobile/Particles/Additive#var19.0
+ps_data.bin	140	pixel	fdbf6a795d42273b	/Data/resources.assets#Mobile/Particles/Additive#var19.1
+vs_data.bin	143	vertex	9a7b6f07ed02e1c3	/Data/resources.assets#Mobile/Particles/Multiply#var19.0
+ps_data.bin	141	pixel	ce86d265eb2e8e99	/Data/resources.assets#Mobile/Particles/Multiply#var19.1
+vs_data.bin	144	vertex	c1a76e5a47ffbedd	/Data/resources.assets#PS4_FMVTexture#var19.0
+ps_data.bin	142	pixel	5e880ab6d25a51fb	/Data/resources.assets#PS4_FMVTexture#var19.1
+vs_data.bin	145	vertex	240ecc72c56822f6	/Data/resources.assets#Particles/Additive (Soft)#var19.0
+vs_data.bin	146	vertex	56b407a5efa1825d	/Data/resources.assets#Particles/Additive (Soft)#var19.1
+ps_data.bin	143	pixel	801a4f6ad4d8ca13	/Data/resources.assets#Particles/Additive (Soft)#var19.2
+ps_data.bin	144	pixel	a7415a5cfc7aada4	/Data/resources.assets#Particles/Additive (Soft)#var19.3
+vs_data.bin	147	vertex	5bd65bd9cd341278	/Data/resources.assets#Particles/Additive#var19.0
+vs_data.bin	148	vertex	080efc90a1fbe5bf	/Data/resources.assets#Particles/Additive#var19.1
+ps_data.bin	145	pixel	405905109e24fd4f	/Data/resources.assets#Particles/Additive#var19.2
+ps_data.bin	146	pixel	f6fddee24926349c	/Data/resources.assets#Particles/Additive#var19.3
+vs_data.bin	149	vertex	b64151f819aa30e0	/Data/resources.assets#Particles/Alpha Blended Premultiply#var19.0
+vs_data.bin	150	vertex	9f02e78d8d35ec36	/Data/resources.assets#Particles/Alpha Blended Premultiply#var19.1
+ps_data.bin	147	pixel	9b6226cb7b5b56f7	/Data/resources.assets#Particles/Alpha Blended Premultiply#var19.2
+ps_data.bin	148	pixel	277f83f93731ae34	/Data/resources.assets#Particles/Alpha Blended Premultiply#var19.3
+vs_data.bin	151	vertex	7c159422bb7a3195	/Data/resources.assets#Particles/Alpha Blended#var19.0
+vs_data.bin	152	vertex	451dcd20b975f971	/Data/resources.assets#Particles/Alpha Blended#var19.1
+ps_data.bin	149	pixel	2d7e990934f75d1a	/Data/resources.assets#Particles/Alpha Blended#var19.2
+ps_data.bin	150	pixel	2170b29e81c0e3a8	/Data/resources.assets#Particles/Alpha Blended#var19.3
+vs_data.bin	153	vertex	cc484e981ad1e561	/Data/resources.assets#Particles/Multiply (Double)#var19.0
+vs_data.bin	154	vertex	eb4c8d69f8ca6712	/Data/resources.assets#Particles/Multiply (Double)#var19.1
+ps_data.bin	151	pixel	56452c9feadc14a9	/Data/resources.assets#Particles/Multiply (Double)#var19.2
+ps_data.bin	152	pixel	68b80ee6523b8cd5	/Data/resources.assets#Particles/Multiply (Double)#var19.3
+vs_data.bin	155	vertex	9cdaf9faca088370	/Data/resources.assets#Particles/VertexLit Blended#var19.0
+vs_data.bin	156	vertex	8f79233170ef41aa	/Data/resources.assets#Particles/VertexLit Blended#var19.1
+vs_data.bin	157	vertex	266ef47510b9a874	/Data/resources.assets#Particles/VertexLit Blended#var19.2
+ps_data.bin	153	pixel	54788e1e82f5ca8c	/Data/resources.assets#Particles/VertexLit Blended#var19.3
+ps_data.bin	154	pixel	76f17524ce464e21	/Data/resources.assets#Particles/VertexLit Blended#var19.4
+ps_data.bin	155	pixel	700a51a746d5282f	/Data/resources.assets#Particles/VertexLit Blended#var19.5
+vs_data.bin	158	vertex	0cdf5b62875bade2	/Data/resources.assets#Sprites/ShinyDefault#var19.0
+vs_data.bin	159	vertex	81f58b345b13d3f1	/Data/resources.assets#Sprites/ShinyDefault#var19.1
+ps_data.bin	156	pixel	626afdc9641b9f72	/Data/resources.assets#Sprites/ShinyDefault#var19.2
+ps_data.bin	157	pixel	f214f920474f994c	/Data/resources.assets#Sprites/ShinyDefault#var19.3
+vs_data.bin	160	vertex	eb9cd8cec601964e	/Data/resources.assets#TextMeshPro/Bitmap#var19.0
+ps_data.bin	158	pixel	2d47ac24430b65ee	/Data/resources.assets#TextMeshPro/Bitmap#var19.1
+vs_data.bin	161	vertex	20e932a576674236	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.0
+vs_data.bin	162	vertex	89d297ef4fdf51de	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.1
+vs_data.bin	163	vertex	3a64e2b9b3e7b761	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.10
+vs_data.bin	164	vertex	17fe4356335079df	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.11
+vs_data.bin	165	vertex	51077ad5e5f4b877	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.12
+vs_data.bin	166	vertex	77fb0f851e223237	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.13
+vs_data.bin	167	vertex	4d2a0a83ffbb4ffa	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.14
+vs_data.bin	168	vertex	14cbc6f1451b20e0	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.15
+ps_data.bin	159	pixel	e3ca5139d64c67ab	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.16
+ps_data.bin	160	pixel	9b14f76b88336e58	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.17
+ps_data.bin	161	pixel	5ffe33aa15f6b1e4	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.18
+ps_data.bin	162	pixel	d82f641b3d26f725	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.19
+vs_data.bin	169	vertex	4fcb49949ce860d3	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.2
+ps_data.bin	163	pixel	75c68a3d9d10dc12	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.20
+ps_data.bin	164	pixel	782c675447d76762	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.21
+ps_data.bin	165	pixel	944b75b994cfe8a2	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.22
+ps_data.bin	166	pixel	00f6cb18696a68db	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.23
+ps_data.bin	167	pixel	e6f90afd1f217632	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.24
+ps_data.bin	168	pixel	102939d77ae98aa0	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.25
+vs_data.bin	170	vertex	3fb2351bc64671fb	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.3
+ps_data.bin	169	pixel	e2ccfc194ef7f5f0	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.4
+ps_data.bin	170	pixel	366908b657d9e4bf	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.5
+vs_data.bin	171	vertex	5c189536b6447d8f	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.6
+vs_data.bin	172	vertex	af9edb3c9b5a85ec	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.7
+vs_data.bin	173	vertex	51902c9330a8b98d	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.8
+vs_data.bin	174	vertex	fe3dbabb03bc29f7	/Data/resources.assets#TextMeshPro/Distance Field (Surface)#var19.9
+vs_data.bin	175	vertex	c40ec3ecac3573b1	/Data/resources.assets#TextMeshPro/Distance Field Overlay#var19.0
+ps_data.bin	171	pixel	33fea899a4831654	/Data/resources.assets#TextMeshPro/Distance Field Overlay#var19.1
+vs_data.bin	176	vertex	e372c97399b14703	/Data/resources.assets#TextMeshPro/Distance Field#var19.1
+vs_data.bin	177	vertex	7ec9d11e75ab616f	/Data/resources.assets#TextMeshPro/Distance Field#var19.2
+vs_data.bin	178	vertex	b53ca60b6a4b746b	/Data/resources.assets#TextMeshPro/Distance Field#var19.3
+ps_data.bin	172	pixel	076b0d90e965c392	/Data/resources.assets#TextMeshPro/Distance Field#var19.5
+ps_data.bin	173	pixel	0b97d1a67365cf35	/Data/resources.assets#TextMeshPro/Distance Field#var19.6
+ps_data.bin	174	pixel	bdf1eaad4fba727c	/Data/resources.assets#TextMeshPro/Distance Field#var19.7
+vs_data.bin	179	vertex	5cf71a8ff21fb0a6	/Data/resources.assets#TextMeshPro/Mobile/Bitmap#var19.0
+ps_data.bin	175	pixel	462e2ebb4515e8ba	/Data/resources.assets#TextMeshPro/Mobile/Bitmap#var19.1
+vs_data.bin	180	vertex	aeafd1a22b6cbc19	/Data/resources.assets#TextMeshPro/Mobile/Bitmap#var19.2
+ps_data.bin	176	pixel	3abb2ffd00f69d8d	/Data/resources.assets#TextMeshPro/Mobile/Bitmap#var19.3
+vs_data.bin	181	vertex	bfea38698676dbda	/Data/resources.assets#TextMeshPro/Mobile/Distance Field (Surface)#var19.0
+vs_data.bin	182	vertex	9538c585a36eedf4	/Data/resources.assets#TextMeshPro/Mobile/Distance Field (Surface)#var19.1
+ps_data.bin	177	pixel	9f252807cec84bd0	/Data/resources.assets#TextMeshPro/Mobile/Distance Field (Surface)#var19.2
+vs_data.bin	183	vertex	823d5140791f304b	/Data/resources.assets#TextMeshPro/Mobile/Distance Field (Surface)#var19.3
+vs_data.bin	184	vertex	ec779cebfa3c798f	/Data/resources.assets#TextMeshPro/Mobile/Distance Field (Surface)#var19.4
+ps_data.bin	178	pixel	673ca26b6ffd8920	/Data/resources.assets#TextMeshPro/Mobile/Distance Field (Surface)#var19.5
+ps_data.bin	179	pixel	7b8ddd635dd57d3f	/Data/resources.assets#TextMeshPro/Mobile/Distance Field (Surface)#var19.6
+vs_data.bin	185	vertex	6fc67a037c21d4a5	/Data/resources.assets#TextMeshPro/Mobile/Distance Field - Masking#var19.0
+ps_data.bin	180	pixel	32a6fa938d47a12f	/Data/resources.assets#TextMeshPro/Mobile/Distance Field - Masking#var19.1
+vs_data.bin	186	vertex	ee2c8c9cffe5679d	/Data/resources.assets#TextMeshPro/Mobile/Distance Field Overlay#var19.0
+ps_data.bin	181	pixel	e6fca2682c2217f2	/Data/resources.assets#TextMeshPro/Mobile/Distance Field Overlay#var19.1
+vs_data.bin	187	vertex	41bfcf51389d573f	/Data/resources.assets#TextMeshPro/Mobile/Distance Field#var19.0
+vs_data.bin	188	vertex	53ccf4c52905eea4	/Data/resources.assets#TextMeshPro/Mobile/Distance Field#var19.1
+vs_data.bin	189	vertex	b968f19f577aab0a	/Data/resources.assets#TextMeshPro/Mobile/Distance Field#var19.2
+vs_data.bin	190	vertex	d6fcf9c8d857cf1b	/Data/resources.assets#TextMeshPro/Mobile/Distance Field#var19.3
+ps_data.bin	182	pixel	482515792d7897ab	/Data/resources.assets#TextMeshPro/Mobile/Distance Field#var19.4
+ps_data.bin	183	pixel	58c186b0004bc392	/Data/resources.assets#TextMeshPro/Mobile/Distance Field#var19.5
+ps_data.bin	184	pixel	80db8f73f86ab2a1	/Data/resources.assets#TextMeshPro/Mobile/Distance Field#var19.6
+ps_data.bin	185	pixel	e56284d63014b08e	/Data/resources.assets#TextMeshPro/Mobile/Distance Field#var19.7
+vs_data.bin	191	vertex	335989bcfb6ffd25	/Data/sharedassets5.assets#Unlit/Texture#var19.0
+ps_data.bin	186	pixel	027c993d0bbf1010	/Data/sharedassets5.assets#Unlit/Texture#var19.1
+cs_main.bin	0	compute	54f9cb183c2a2e46	main#GLSLC@0x23bde88
+cs_main.bin	1	compute	45fe8689cd7719ae	main#GLSLC@0x23bec10
+cs_main.bin	2	compute	cf71fed72200e24b	main#GLSLC@0x23bfa98
+cs_main.bin	3	compute	5f4899489d27e103	main#GLSLC@0x23c0a20
+cs_main.bin	4	compute	88365fc251938dc4	main#GLSLC@0x23c1aa8
+cs_main.bin	5	compute	20175689d83d0fac	main#GLSLC@0x23c2a30
+cs_main.bin	6	compute	227c627ecd248ec4	main#GLSLC@0x23c3bb8
+cs_main.bin	7	compute	5c25883ca89c2431	main#GLSLC@0x23c4d40
+cs_main.bin	8	compute	1d86d98983b8a086	main#GLSLC@0x23c60c8
+cs_main.bin	9	compute	5f77d40e89581fb6	main#GLSLC@0x23c7350
+cs_main.bin	10	compute	674b91b1e89c4376	main#GLSLC@0x23c88d8
+cs_main.bin	11	compute	10e3f021cee1f735	main#GLSLC@0x23c9e60
+vs_main.bin	0	vertex	399b22379a2c6dc1	main#GLSLC@0x23cb6e8
+ps_main.bin	0	pixel	9fba886a7aa0fd85	main#GLSLC@0x23cc370
+ps_main.bin	1	pixel	44847b6ca9e2acdc	main#GLSLC@0x23ccff8
+ps_main.bin	2	pixel	5fa8988a94a0b27f	main#GLSLC@0x23cdd80
